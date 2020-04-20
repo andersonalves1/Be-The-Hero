@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'start@latest',
+1 verbose cli   '--global',
+1 verbose cli   '--prefix',
+1 verbose cli   'C:\\Users\\Anderson',
+1 verbose cli   'Alves\\Documents\\GitHub\\Be-The-Hero\\backend\\_npx\\1320',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   '--json'
+1 verbose cli ]
+2 info using npm@6.13.4
+3 info using node@v12.16.1
+4 verbose npm-session a8247367b80a9015
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData error for file:Alves\Documents\GitHub\Be-The-Hero\backend\_npx\1320 Could not install from "Alves\Documents\GitHub\Be-The-Hero\backend\_npx\1320" as it does not contain a package.json file.
+8 http fetch GET 200 https://registry.npmjs.org/start 238ms
+9 http fetch GET 200 https://registry.npmjs.org/start/-/start-5.1.0.tgz 57ms
+10 silly pacote tag manifest for start@latest fetched in 333ms
+11 warn deprecated start@5.1.0: Deprecated in favor of https://github.com/deepsweet/start
+12 timing stage:rollbackFailedOptional Completed in 1ms
+13 timing stage:runTopLevelLifecycles Completed in 348ms
+14 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\Anderson Alves\Documents\GitHub\Be-The-Hero\backend\Alves\Documents\GitHub\Be-The-Hero\backend\_npx\1320\package.json'
+15 verbose cwd C:\Users\Anderson Alves\Documents\GitHub\Be-The-Hero\backend
+16 verbose Windows_NT 10.0.18363
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "start@latest" "--global" "--prefix" "C:\\Users\\Anderson" "Alves\\Documents\\GitHub\\Be-The-Hero\\backend\\_npx\\1320" "--loglevel" "error" "--json"
+18 verbose node v12.16.1
+19 verbose npm  v6.13.4
+20 error code ENOLOCAL
+21 error Could not install from "Alves\Documents\GitHub\Be-The-Hero\backend\_npx\1320" as it does not contain a package.json file.
+22 verbose exit [ 1, true ]
